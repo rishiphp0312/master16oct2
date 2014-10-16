@@ -1,0 +1,225 @@
+;;; 
+Import: Release 11.2.0.3.0 - Production on Tue Jan 7 10:50:00 2014
+
+Copyright (c) 1982, 2011, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Master table "SYSTEM"."SYS_IMPORT_SCHEMA_01" successfully loaded/unloaded
+Starting "SYSTEM"."SYS_IMPORT_SCHEMA_01":  system/******** directory=abc dumpfile=EBIZ.DMP logfile=imprt.log schemas=Ebiz 
+Processing object type DATABASE_EXPORT/SCHEMA/USER
+ORA-31684: Object type USER:"EBIZ" already exists
+Processing object type DATABASE_EXPORT/SCHEMA/GRANT/SYSTEM_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/ROLE_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/DEFAULT_ROLE
+Processing object type DATABASE_EXPORT/SCHEMA/PROCACT_SCHEMA
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TABLE
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TABLE_DATA
+. . imported "EBIZ"."ACCOUNT_RECHARGE_CBC"               16.66 KB      30 rows
+. . imported "EBIZ"."CBC_MDC_REFUND_CBC"                 16.85 KB       7 rows
+. . imported "EBIZ"."DT_ASSESSMENT_MDC"                  10.92 KB       2 rows
+. . imported "EBIZ"."DT_CLAIM_FLR"                        25.5 KB      64 rows
+. . imported "EBIZ"."DT_CLIENT_FEEDBACK_FLR"             9.210 KB       1 rows
+. . imported "EBIZ"."DT_CLIENT_UPLOAD_DOCS_FLR"          11.04 KB       5 rows
+. . imported "EBIZ"."DT_CUST_CARD_CBC"                   18.02 KB       7 rows
+. . imported "EBIZ"."DT_CUST_CARD_LOG_CBC"               15.24 KB      19 rows
+. . imported "EBIZ"."DT_CUST_CARD_REQUESTS_CBC"          10.73 KB       5 rows
+. . imported "EBIZ"."DT_CUST_FEEDBACK_CBC"               10.21 KB       6 rows
+. . imported "EBIZ"."DT_REGISTRATION_MDC"                17.75 KB      50 rows
+. . imported "EBIZ"."DT_UPLOAD_DOCS_CBC"                 22.22 KB      92 rows
+. . imported "EBIZ"."DT_VEHICLES_CBC"                    15.25 KB       3 rows
+. . imported "EBIZ"."DT_VEHICLES_LOG_CBC"                15.46 KB       4 rows
+. . imported "EBIZ"."DT_VEHICLE_INACTIVE_LOG_MDC"        14.78 KB       1 rows
+. . imported "EBIZ"."DT_VEHICLE_LOG_MDC"                 17.82 KB       8 rows
+. . imported "EBIZ"."HD_ASSESSMENT_MDC"                  18.28 KB       2 rows
+. . imported "EBIZ"."HD_CLAIM_FLR"                       30.46 KB      21 rows
+. . imported "EBIZ"."HD_CUST_VEHICLE_CARD_CBC"           26.68 KB       9 rows
+. . imported "EBIZ"."HD_REGISTRATION_FLR"                25.21 KB      17 rows
+. . imported "EBIZ"."HD_REGISTRATION_MDC"                24.64 KB      83 rows
+. . imported "EBIZ"."HD_VEHICLE_LOG_MDC"                 12.35 KB       5 rows
+. . imported "EBIZ"."MST_BANK_FLR"                       16.07 KB      17 rows
+. . imported "EBIZ"."MST_BANK_HIST_FLR"                  15.14 KB       2 rows
+. . imported "EBIZ"."MST_CLIENT_CHANGE_FLR"              22.35 KB       4 rows
+. . imported "EBIZ"."MST_CLIENT_FLR"                     30.21 KB      29 rows
+. . imported "EBIZ"."MST_CLIENT_FUEL_FLR"                10.95 KB      72 rows
+. . imported "EBIZ"."MST_CUSTOMER_AMENDMENTS_MDC"        13.32 KB       3 rows
+. . imported "EBIZ"."MST_CUSTOMER_DETAILS_MDC"           16.49 KB       5 rows
+. . imported "EBIZ"."MST_VEHICLE_AMENDMENTS_MDC"         14.28 KB       3 rows
+. . imported "EBIZ"."PR_DT_UPLOAD_DOCS_MDC"              11.27 KB      20 rows
+. . imported "EBIZ"."PR_DT_UPLOAD_LOG_DOCS_INSP"         8.851 KB       1 rows
+. . imported "EBIZ"."PR_DT_UPLOAD_VEHICLE_DOCS_CBC"      14.75 KB      50 rows
+. . imported "EBIZ"."PR_DT_UPLOAD_VEHICLE_DOCS_MDC"      24.14 KB     104 rows
+. . imported "EBIZ"."PR_DT_USERS_DETAILS_ALL"            20.50 KB      51 rows
+. . imported "EBIZ"."PR_INVOICE_UPLOAD__DOCS_FLR"        18.59 KB      64 rows
+. . imported "EBIZ"."PR_MST_COMPANY_CODE"                8.718 KB       3 rows
+. . imported "EBIZ"."PR_MST_PARAMETER_TYPE"              13.88 KB     192 rows
+. . imported "EBIZ"."PR_USER_LOGIN_ACTIVITY_ALL"         16.92 KB     250 rows
+. . imported "EBIZ"."DT_CHECKLIST_UNAVAILABLE_FLR"           0 KB       0 rows
+. . imported "EBIZ"."DT_ENTRY_EXIT_CBC"                      0 KB       0 rows
+. . imported "EBIZ"."DT_VEHICLE_LOG_REJ_MDC"                 0 KB       0 rows
+. . imported "EBIZ"."HD_ENTRY_EXIT_CBC"                      0 KB       0 rows
+. . imported "EBIZ"."HD_SUPPLIER_FLR"                        0 KB       0 rows
+. . imported "EBIZ"."MST_CUST_PORTAL_REG_ACC_REJ"            0 KB       0 rows
+. . imported "EBIZ"."MST_SUPPLIER_FLR"                       0 KB       0 rows
+. . imported "EBIZ"."PR_CUST_FEEDBACK"                       0 KB       0 rows
+. . imported "EBIZ"."PR_DT_USERS_DETAILS_TEST_ERP"           0 KB       0 rows
+. . imported "EBIZ"."PR_MST_ACCESS_LOGIN"                    0 KB       0 rows
+. . imported "EBIZ"."PR_UPLOAD_DOCS_FEEDBACK"                0 KB       0 rows
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT ALTER ON "EBIZ"."DT_REGISTRATION_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT DELETE ON "EBIZ"."DT_REGISTRATION_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT INDEX ON "EBIZ"."DT_REGISTRATION_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT INSERT ON "EBIZ"."DT_REGISTRATION_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT SELECT ON "EBIZ"."DT_REGISTRATION_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT UPDATE ON "EBIZ"."DT_REGISTRATION_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT REFERENCES ON "EBIZ"."DT_REGISTRATION_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT ON COMMIT REFRESH ON "EBIZ"."DT_REGISTRATION_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT QUERY REWRITE ON "EBIZ"."DT_REGISTRATION_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT DEBUG ON "EBIZ"."DT_REGISTRATION_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT FLASHBACK ON "EBIZ"."DT_REGISTRATION_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MAKESS' does not exist
+Failing sql is:
+GRANT ALTER ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MAKESS"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT ALTER ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MAKESS' does not exist
+Failing sql is:
+GRANT DELETE ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MAKESS"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT DELETE ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MAKESS' does not exist
+Failing sql is:
+GRANT INDEX ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MAKESS"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT INDEX ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MAKESS' does not exist
+Failing sql is:
+GRANT INSERT ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MAKESS"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT INSERT ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MAKESS' does not exist
+Failing sql is:
+GRANT SELECT ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MAKESS"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT SELECT ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MAKESS' does not exist
+Failing sql is:
+GRANT UPDATE ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MAKESS"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT UPDATE ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MAKESS' does not exist
+Failing sql is:
+GRANT REFERENCES ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MAKESS"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT REFERENCES ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MAKESS' does not exist
+Failing sql is:
+GRANT ON COMMIT REFRESH ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MAKESS"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT ON COMMIT REFRESH ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MAKESS' does not exist
+Failing sql is:
+GRANT QUERY REWRITE ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MAKESS"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT QUERY REWRITE ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MAKESS' does not exist
+Failing sql is:
+GRANT DEBUG ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MAKESS"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT DEBUG ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MDC"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MAKESS' does not exist
+Failing sql is:
+GRANT FLASHBACK ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MAKESS"
+ORA-39083: Object type OBJECT_GRANT failed to create with error:
+ORA-01917: user or role 'MDC' does not exist
+Failing sql is:
+GRANT FLASHBACK ON "EBIZ"."DT_VEHICLE_LOG_MDC" TO "MDC"
+Processing object type DATABASE_EXPORT/SCHEMA/FUNCTION/FUNCTION
+Processing object type DATABASE_EXPORT/SCHEMA/PROCEDURE/PROCEDURE
+Processing object type DATABASE_EXPORT/SCHEMA/FUNCTION/ALTER_FUNCTION
+ORA-39082: Object type ALTER_FUNCTION:"EBIZ"."CARD_BALANCE" created with compilation warnings
+ORA-39082: Object type ALTER_FUNCTION:"EBIZ"."CF_CUST_OP_BAL" created with compilation warnings
+Processing object type DATABASE_EXPORT/SCHEMA/PROCEDURE/ALTER_PROCEDURE
+ORA-39082: Object type ALTER_PROCEDURE:"EBIZ"."ACC_BALANCE_CHECK" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"EBIZ"."ACC_BALANCE_CHECK1" created with compilation warnings
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/INDEX/INDEX
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type DATABASE_EXPORT/SCHEMA/VIEW/VIEW
+ORA-39082: Object type VIEW:"EBIZ"."BANK_LIST" created with compilation warnings
+ORA-39082: Object type VIEW:"EBIZ"."BANK_BRANCH_LIST_FLR" created with compilation warnings
+ORA-39082: Object type VIEW:"EBIZ"."FULE_OUTLET_FLR" created with compilation warnings
+ORA-39082: Object type VIEW:"EBIZ"."BANK_BRANCH" created with compilation warnings
+ORA-39082: Object type VIEW:"EBIZ"."LOCATION_DISTANCE" created with compilation warnings
+ORA-39082: Object type VIEW:"EBIZ"."FLR_CLAIM_PROCESS" created with compilation warnings
+ORA-39082: Object type VIEW:"EBIZ"."VW_HD_ENTRY_EXIT" created with compilation warnings
+ORA-39082: Object type VIEW:"EBIZ"."MST_CLIENT_ERP" created with compilation warnings
+ORA-39082: Object type VIEW:"EBIZ"."MST_CUSTOMER_DETAILS_ERP" created with compilation warnings
+ORA-39082: Object type VIEW:"EBIZ"."HD_CUST_VEHICLE_CARD_ERP" created with compilation warnings
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/STATISTICS/TABLE_STATISTICS
+Job "SYSTEM"."SYS_IMPORT_SCHEMA_01" completed with 48 error(s) at 10:50:32
